@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  /* margin: 24px auto; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.input-div {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  padding: 8px 12px;
+}
