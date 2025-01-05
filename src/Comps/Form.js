@@ -1,5 +1,7 @@
 const ValidateInput = (event) => {
-  console.log("test");
+  console.log(event.target.id);
+  // check email
+  // check country
 };
 
 const CreateInput = (name, description, type = "text") => {
